@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+ol,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./assets/Background\ images.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.page-logo {
+  font-size: 60px;
+  color: #ff5b1c;
+  text-align: center;
+  margin-top: 181px;
+  text-transform: uppercase;
+}
+
+.page-section-content {
+  background: #ffffff;
+  color: #6b86a8;
+  font-weight: bold;
+  border-radius: 3px;
+  width: 492px;
+  margin: 35px auto;
+  padding: 25px 30px;
+}
+
+.page-section-content:first-of-type {
+  margin-bottom: 43px;
+  margin-top: 15px;
+}
+
+.page-section-email {
+  text-align: center;
+}
+
+.page-section-email-address {
+  background: #ffffff;
+  width: 320px;
+  height: 54px;
+  font-weight: bold;
+  padding-left: 30px;
+  outline: none;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+}
+
+.page-section-email-address::placeholder {
+  color: #cfcfcf;
+}
+
+.page-section-btn {
+  background: #ff5b1c;
+  border: 1px solid #ff5b1c;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 159px;
+  height: 54px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  outline: none;
+}
+
+.page-section-btn:hover {
+  background: transparent;
+  border: 1px solid #ff5b1c;
+  color: #ff5b1c;
+}
+
+.page-section-btn:focus {
+  border: 1px solid #ff5b1c;
+  background: #ff5b1c;
+  color: #ffffff;
+}
+
+.footer-social {
+  margin-top: 100px;
+  margin-bottom: 147px;
+  text-align: center;
+}
+
+.footer-social-icons {
+  padding-right: 27px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+}

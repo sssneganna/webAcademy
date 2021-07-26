@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+  
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+ol,
+p,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.product {
+    --color-text: #FFFFFF;
+    margin: auto;
+    background: url(./img.png.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 562px;
+    width: 373px;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-promotion {
+    background: #FF0000;
+    color: var(--color-text);
+    font-weight: 500;
+    font-size: 18px;
+    transform: rotate(-36.57deg);
+    position: absolute;
+    top: 10px;
+    left: -100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 294px;
+}
+   
+.product-rating {
+    font-weight: bold;
+    font-size: 18px;
+    color: #FF8A00;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.product-content {
+    background: rgba(196, 196, 196, 0.21);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px 25px 20px;
+}
+
+.content_title {
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--color-text);
+    margin-bottom: 11px;
+}
+
+.content_text {
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--color-text);
+    margin-bottom: 22px;
+}
+
+.content_btn {
+    --bg-color: #11880E;
+    font-weight: bold;
+    font-size: 27px;
+    color: var(--color-text);
+    background: var(--bg-color);
+    border-radius: 3px;
+    border: 1px solid var(--bg-color);
+    outline: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    height: 53px;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.content_btn:hover {
+    background: transparent;
+    border: 1px solid var(--bg-color);
+    color: var(--bg-color);
+}
+
+.content_btn:focus {
+    border: 1px solid var(--bg-color);
+    background: var(--bg-color);
+    color: var(--color-text);
+}
+

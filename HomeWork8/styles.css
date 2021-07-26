@@ -1,0 +1,38 @@
+:root {
+    --size: 80px;
+    --btn-color: blue;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.lamp-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.lamp {
+    width: var(--size);
+    height: var(--size);
+    border: 4px solid grey;
+    margin-bottom: 40px;
+}
+
+.btn {
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    background-color: var(--btn-color);
+    outline: none;
+    border: 1px solid var(--btn-color);
+    cursor: pointer;
+}
+
+.btn:active {
+background-color: rgb(123, 123, 209);
+border: 3px solid rgb(112, 240, 112);
+}
+

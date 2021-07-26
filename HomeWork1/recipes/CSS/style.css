@@ -1,0 +1,134 @@
+.body {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(106, 132, 206);
+  text-align: center;
+}
+
+.nav_container {
+  vertical-align: top;
+}
+.nav {
+  margin-left: 20px;
+}
+
+.nav_link {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(49, 49, 49);
+  padding-right: 10px;
+}
+.nav_link_list {
+  list-style-type: none;
+}
+
+.image {
+  margin-left: 50px;
+}
+
+.img {
+  width: 640px;
+  max-width: 100%;
+}
+
+.Cheesecake {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.name_Cheesecake {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.section {
+  padding-left: 80px;
+}
+
+.list {
+  color: chocolate;
+  font-size: 20px;
+}
+
+.list_ingredients {
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Ingredients {
+  margin-bottom: 20px;
+}
+
+.Ingredients_style {
+  font-size: 30px;
+  color: chocolate;
+  font-weight: 500;
+}
+
+.Method {
+  text-align: center;
+}
+
+.Method_name {
+  margin-bottom: 20px;
+}
+
+.Method_style {
+  font-size: 30px;
+  color: chocolate;
+  font-weight: 700;
+}
+
+.list_method {
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.notes {
+  margin-bottom: 20px;
+}
+
+.notes_style {
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.notes_text {
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+}

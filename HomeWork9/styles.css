@@ -1,0 +1,40 @@
+:root {
+    --size-button: 80px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.light {
+    margin: 0 auto;
+    width: 100px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.light_item {
+    width: var(--size-button);
+    height: var(--size-button);
+    border: 1px solid grey;
+    border-radius: 50%;
+    background: transparent;
+    outline: none;
+}
+
+.light_red.active {
+    background-color: red;
+}
+
+.light_yellow.active {
+    background-color: yellow;
+}
+
+.light_green.active {
+    background-color: green;
+}
+
+
